@@ -48,7 +48,7 @@ table {
 }
 
 
-/* My styles */
+/* MY STYLE */
 
 body{
     background-color: #aad4cf;
@@ -56,19 +56,44 @@ body{
     font-size: 16px;
 }
 
+/* Add the correct top margin */
 h1{
     font-size: 400%;
     color:white;
     text-align: center;
     background-image: url("../img/lone-starfish-wide.jpg");
     background-position: center;
-    height: 300px; 
+    height: 300px;
+}
+ 
+img {
+    float: left;
+    margin-left: 10px; 
+    width: 250px; 
+  }
+
+  /* Add the line border between the 3 words */
+nav{
+    margin-top: 16px; 
+
+}
+nav.a{
+    word-spacing: 200px;
+    text-align: center;
+    font-size: 162.5%
 }
 
 h2{
     font-size: 225%;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
+h3{
+    font-size: 162.5%; /* verufy font size and weight */ 
+}
+
+/* need alterations */
 p{
     line-height: 150%;
 }
@@ -81,7 +106,7 @@ header, main, footer {
     margin-right: auto;
 }
 
-
+/* need alterations */
 main{
     width: 1004px;
     padding: 10px;

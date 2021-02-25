@@ -90,8 +90,21 @@ h2{
 }
 
 h3{
-    font-size: 162.5%; /* verufy font size and weight */ 
+    font-size: 162.5%; /* verify font size and weight */ 
 }
+
+ul.list{
+    margin-left: 20px;
+}
+
+ul li::before {
+    content: "\2022";
+    color:black;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
 
 /* need alterations */
 p{

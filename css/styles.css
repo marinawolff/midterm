@@ -56,62 +56,6 @@ body{
     font-size: 16px;
 }
 
-/* Add the correct top margin */
-h1{
-    font-size: 400%;
-    color:white;
-    text-align: center;
-    background-image: url("../img/lone-starfish-wide.jpg");
-    background-position: center;
-    height: 300px;
-}
- 
-img {
-    float: left;
-    margin-left: 10px; 
-    width: 250px; 
-  }
-
-  /* Add the line border between the 3 words */
-nav{
-    margin-top: 16px; 
-
-}
-nav.a{
-    word-spacing: 200px;
-    text-align: center;
-    font-size: 162.5%
-}
-
-h2{
-    font-size: 225%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-h3{
-    font-size: 162.5%; /* verify font size and weight */ 
-}
-
-ul.list{
-    margin-left: 20px;
-}
-
-ul li::before {
-    content: "\2022";
-    color:black;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-  }
-
-/* need alterations */
-p{
-    line-height: 150%;
-}
-
-
 header, main, footer {
     width: 1024px;
     background-color: #d4e9e7;
@@ -119,9 +63,75 @@ header, main, footer {
     margin-right: auto;
 }
 
-/* need alterations */
-main{
+main, footer{
     width: 1004px;
     padding: 10px;
     border: none;
+}
+
+
+h1{ 
+    font-size: 64px;
+    color:white;
+    position: absolute;
+    top:200px; 
+    width:100%;
+    text-align: center;
+}
+
+.container{
+    position:relative;
+    margin:0 auto;
+}
+
+nav ul li{
+    display: inline;
+    margin:0;
+    padding:0;
+}
+
+nav ul li a {
+    position: relative;
+    display: inline-block;
+    width:33%;
+    margin: 10px 0 0 0; 
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 26px;
+    
+}
+
+h2{
+    font-size: 225%;
+    margin: 0;
+    padding: 30px 0 0 0;
+}
+
+.float{
+    width: 250px;
+    float: left;
+    margin: 0; 
+    padding: 22px 22px 22px 0;  /* verify margin or padding */
+}
+
+p{
+    line-height: 140%;
+    margin: 20px 0 12px 0; /* verify margin or padding */
+}
+
+h3{
+    font-size: 30px; 
+    margin: 26px 0 22px 0; /* verify margin or padding */
+}
+.dots {
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 100%;
+}
+
+footer{
+    text-align: right;
 }

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-    <!-- Document information -->
+    <!-- Webpage created for the midterm assignment -Responsive Web Ddesign I -->
     <meta charset="UTF-8">
     <title>Midterm webpage</title>
     <link href="css/styles.css" rel="stylesheet">
@@ -11,7 +11,6 @@
 
 
   <body>
-    <!-- Document Content -->
 
     <header> 
       <div class="container">
@@ -19,77 +18,73 @@
         <h1> Lone Starfish </h1>
       </div>
     
-       <!-- Edit CSS -->
-     <nav>
-      <ul>
-        <li><a href= "#"> Home </a></li>
-        <li><a href= "#"> Story </a></li>
-        <li><a href= "#"> Contact </a>
-        </li>
-      </ul>
-     </nav>
+       <!-- Navigation bar -->
+      <nav>
+          <ul>
+            <li><a href= "#"> Home </a></li>
+            <li><a href= "#"> Story </a></li>
+            <li><a href= "#"> Contact </a></li>
+          </ul>
+      </nav>
   
-     </header>
+    </header>
 
     <main>
       <article>
         <h2>Life of a Starfish</h2>
 
-        <img class="float" src="img/lone-starfish.jpg" alt="Starfish picture">
+        <img src="img/lone-starfish.jpg" alt="Starfish picture">
 
         <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
         </p>
 
         <h3>Facts About Starfish</h3>
 
-        
-        <ul class="dots">
-            <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.  </li>
-            <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
-            <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
-            <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra</li>
-        </ul>
+          <ul>
+              <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.  </li>
+              <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
+              <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
+              <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra</li>
+          </ul>
 
-        <h3> Contact to learn more</h3>
+        <!-- Form section -->
+
+        <h4> Contact to learn more</h4>
 
         <div class="border">
-          <form action="index.html" method="post">
-            <label for="fullname"> Your Name</label>
-            <input id="fullname">
-          </form>
+          <form>
+            <label for="fullname"> Your Name</label><br>
+            <input type="text" name=fullname id="fullname"><br>
 
-          <form action="index.html" method="post">
-            <label for="email"> Your Email</label>
-            <input id="email">
-          </form>
+            <label for="email"> Your Email</label><br>
+            <input type="email" id="email" name="email"><br>
 
-          <form  action="index.html" method="post"></form>
-            <label for="message">Your Message</label>
+            <label for="message">Your Message</label><br>
             <textarea id="message"></textarea>
-          </form>
+          
 
-          <h4> Would you like to visit the starfish?</h4>
+          <h5> Would you like to visit the starfish?</h5>
 
-          <form action="index.html" method="post">
+          
             <label for="yes">Yes</label>
-            <input type="checkbox" id="yes" name="yes">
+            <input type="radio" name="visit" id="yes" value="Yes">
             
             <label for="no">No</label>
-            <input type="checkbox" id="no" name="no">
+            <input type="radio" name="visit" id="no" value="No" >
           
             <label for="maybe">Maybe</label>
-            <input type="checkbox" id="maybe" name="meybe">
-          </form>
+            <input type="radio" name="visit" id="maybe" value="Maybe"><br>
 
-          <form action="index.html" method="post">
-            <button type="submit">Send</button>
+            <button class="button" type="submit">Send</button>
           </form>
-      </div>
-
+        </div>
       </article>
    </main>
 
-    <footer> &copy; Lone Starfish </footer>
+   <!-- Footer -->
+    <footer>
+      <p> &copy; Lone Starfish. </p>
+    </footer>
 
   </body>
 
